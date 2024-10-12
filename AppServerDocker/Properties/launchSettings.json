@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "AppServerDocker": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+services:
+    main:
+        container_name: udp-server
+        build:
+            dockerfile: Dockerfile
+        env_file:
+            - .env
+        ports:
+            - ${APPLICATION_PORT}:${CONTAINER_PORT}
+        restart: always
