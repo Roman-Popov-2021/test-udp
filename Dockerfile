@@ -6,7 +6,7 @@ USER app
 WORKDIR /app
 
 # Open port
-EXPOSE 8000
+EXPOSE 8000/udp
 
 # Этот этап используется для сборки проекта службы
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build

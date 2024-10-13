@@ -6,5 +6,5 @@ services:
         env_file:
             - .env
         ports:
-            - ${APPLICATION_PORT}:${CONTAINER_PORT}
+            - ${APPLICATION_PORT}:${CONTAINER_PORT}/udp
         restart: always
